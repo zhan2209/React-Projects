@@ -1,0 +1,54 @@
+{
+  "name": "5117-module-3-assignment-template",
+  "version": "0.1.0",
+  "description": "intro to react",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.3.2",
+    "ejs": "^2.5.2",
+    "express": "~4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "material-ui-chip-input": "^0.10.0",
+    "mongoose": "^4.6.6",
+    "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "react": "15.3.2",
+    "react-dom": "15.3.2",
+    "react-tap-event-plugin": "1.0.0",
+    "request": "^2.78.0",
+    "serve-favicon": "~2.3.0",
+    "validator": "^6.1.0"
+  },
+  "devDependencies": {
+    "foreman": "^2.0.0",
+    "nodemon": "^1.11.0"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "bower_components",
+    "client/build",
+    "client/node_modules"
+  ],
+  "engines": {
+    "node": "6.6.0"
+  },
+  "scripts": {
+    "production": "node ./server/bin/www",
+    "start": "./node_modules/.bin/nf --procfile Procfile.dev start -p 3000",
+    "postinstall": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umn-5117-f16/module-3-assignment-template"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umn-5117-f16/module-3-assignment-template/issues"
+  },
+  "homepage": "https://github.com/umn-5117-f16/module-3-assignment-template#readme"
+}
